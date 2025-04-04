@@ -1,0 +1,12 @@
+body {
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+img {
+    max-width: 90vw;
+}
