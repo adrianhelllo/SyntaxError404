@@ -13,7 +13,7 @@ body {
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(10, 10vw);
+    grid-template-rows: repeat(10, 10vh);
     margin: auto;
     background-color: rgb(94, 168, 100);
 }
@@ -44,7 +44,7 @@ h1 {
 a {
     background-color: aliceblue;
     margin: 1vw;
-    padding-top: 3vw;
+    padding-top: 1.5vw;
     font-size: 2vw
 }
 
