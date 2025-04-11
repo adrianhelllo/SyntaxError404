@@ -1,12 +1,123 @@
 body {
     margin: auto;
+    background-color: burlywood;
+}
+
+h2, p, img {
+    background-color: rgb(20, 65, 23);
+    border: solid 10px rgb(20, 65, 23);
+    border-radius: 5px;
+    color: #ffffff;
+    box-shadow: 5px 10px 5px black;
+}
+
+article{
+    background-color: rgb(94, 168, 100);
+    padding: 50px;
+}
+
+footer {
+    background-color: rgb(94, 168, 100);
+}
+
+section {
+    margin-bottom: 3vw;
 }
 
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 img {
-    max-width: 90vw;
+    max-width: 100%;
+}
+
+.elso {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+    'eimg eh2'
+    'eimg ep';
+}
+
+.elso h2 {
+    grid-area: eh2;
+}
+
+.elso img {
+    grid-area: eimg;
+    max-height: 350px;
+}
+
+.elso p {
+    grid-area: ep;
+}
+
+.masodik {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+    'mh2 mimg'
+    'mp mimg';
+}
+
+.masodik h2 {
+    grid-area: mh2;
+}
+
+.masodik img {
+    grid-area: mimg;
+    margin-left: 1vw;
+    margin-top: 2.5vw;
+}
+
+.masodik p {
+    grid-area: mp;
+}
+
+footer p {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding-bottom: 10px;
+}
+
+footer a {
+    text-align: right;
+    background-color: rgb(13, 122, 31);
+    border: solid 3px rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 4px 8px 4px black;
+}
+
+footer a:hover {
+    background-color: rgb(14, 218, 48);;
+}
+
+@media screen and (max-width:785px){
+    .elso {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        'eimg eh2 eh2 eh2 eh2'
+        'ep ep ep ep ep'
+        'ep ep ep ep ep'
+    }
+    .masodik {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        'mh2 mh2 mh2 mh2 mimg'
+        'mp mp mp mp mp'
+        'mp mp mp mp mp'
+    }
+    
 }
