@@ -11,6 +11,12 @@ h2, p, img {
     box-shadow: 5px 10px 5px black;
 }
 
+nav h2 {
+    background-color: rgba(20, 65, 23, 0);
+    border: solid 10px rgba(20, 65, 23, 0);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0);
+}
+
 article{
     background-color: rgb(94, 168, 100);
     padding: 50px;
@@ -39,6 +45,9 @@ img {
     grid-template-areas:
     'eimg eh2'
     'eimg ep';
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 35px;
 }
 
 .elso h2 {
@@ -61,6 +70,9 @@ img {
     grid-template-areas:
     'mh2 mimg'
     'mp mimg';
+    gap: 35px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .masodik h2 {
@@ -69,8 +81,6 @@ img {
 
 .masodik img {
     grid-area: mimg;
-    margin-left: 1vw;
-    margin-top: 2.5vw;
 }
 
 .masodik p {
@@ -85,6 +95,8 @@ footer p {
 
 footer {
     padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 footer a {

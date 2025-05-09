@@ -33,12 +33,12 @@ h1 {
 
 h2 {
     border-radius: 1vw;
-    margin: 0 30vw 0 30vw;
     font-size: 2vw;
     text-align: center;
     color: rgb(99, 83, 61);
     transition: all 0.3s ease-in-out;
 }
+
 
 .cont a {
     font-size: 1.5vw;
