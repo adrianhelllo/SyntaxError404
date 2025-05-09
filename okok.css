@@ -1,7 +1,13 @@
 /* Csaba CSS:*/
+* {
+    box-sizing: border-box;
+}
 #okok_body {
     background-color: rgb(255, 230, 204);
     margin: 10px;
+
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 #okok_h1 {
     background-color: rgb(255, 242, 204);
@@ -18,7 +24,6 @@
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 0px;
 }
 #okok_a {
     background-color: rgb(245, 245, 245);
@@ -45,7 +50,7 @@
     border: 2px solid black;
 }
 .okok_section_kep_1 {
-    border: 2px solid black;
+    
     background-color: rgb(218, 232, 252);
     margin:10px;
 }
@@ -55,7 +60,7 @@
     margin:10px;
 }
 .okok_section_kep_2 {
-    border: 2px solid black;
+    
     background-color: rgb(218, 232, 252);
     margin:10px;
 }
@@ -66,6 +71,7 @@
 }
 #okok_kep {
     width: 100%;
+    border: 2px solid black;
 }
 @media screen and (max-width:650px) {
     #okok_body {
