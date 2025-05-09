@@ -1,93 +1,40 @@
 * {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin: 0;
     background-color: blanchedalmond;
-}
-
-main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(10, 10vh);
-    margin: auto;
     background-color: rgb(94, 168, 100);
 }
 
-
-
 header {
-    grid-column: 1 / 4;
-    grid-row: 1;
-    background-color: burlywood;
+    background-color: rgb(253, 212, 151);
+    padding: 5vh 5vw 5vh 5vw
 }
 
 nav {
-    grid-column: 1 / 4;
-    grid-row: 2;
-    background-color: bisque;
+    background-color: rgb(185, 149, 95);
+    padding: 3vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 3vw;
 }
 
 h1 {
     font-size: 3vw;
-    margin: 0;
-    margin-top: 3vw
 }
 
-a {
-    background-color: aliceblue;
-    margin: 1vw;
-    padding-top: 1.5vw;
-    font-size: 2vw
+nav a {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 1vw;
+    margin: 0 10vw 0 10vw;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, border-color 0.3 ease-in-out
 }
 
-footer {
-    background-color: rgb(0, 48, 12);
-    grid-column: 1 / 4;
-    grid-row: 10 / 12;
-}
-
-summary {
-    grid-gap: 1vw;
-    grid-column: 1 / 4;
-    grid-row: 3 / 4;
-}
-
-section {
-    display: grid;
-}
-
-.paratlan article {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-.paros article {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-
-    
-}
-
-footer {
-    color: white;
-}
-
-footer p {
-    font-size: 1.8vw;
-    text-align: center;
-}
-
-footer a {
-    display: inline-block;
-    text-align: right;
-    margin: 0;
-    padding: 0;
+nav a:hover {
+    color: rgba(255, 255, 255, 1);
+    transform: scale(1.1)
 }
