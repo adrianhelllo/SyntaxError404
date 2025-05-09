@@ -11,10 +11,15 @@ h2, p, img {
     box-shadow: 5px 10px 5px black;
 }
 
+p {
+    font-size: 25px;
+}
+
 nav h2 {
     background-color: rgba(20, 65, 23, 0);
     border: solid 10px rgba(20, 65, 23, 0);
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0);
+    color: rgb(99, 83, 61);
 }
 
 article{
@@ -45,8 +50,8 @@ img {
     grid-template-areas:
     'eimg eh2'
     'eimg ep';
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 12vw;
+    padding-right: 12vw;
     gap: 35px;
 }
 
@@ -71,8 +76,8 @@ img {
     'mh2 mimg'
     'mp mimg';
     gap: 35px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 12vw;
+    padding-right: 12vw;
 }
 
 .masodik h2 {
@@ -116,20 +121,39 @@ footer a:hover {
 
 @media screen and (max-width:785px){
     .elso {
+        text-align: center;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-template-areas:
         'eimg eh2 eh2 eh2 eh2'
         'ep ep ep ep ep'
         'ep ep ep ep ep'
+        'ep ep ep ep ep'
+    }
+    .elso img {
+        width: 300px;
+    }
+    .elso h2 {
+        font-size: 25px;
+        text-align: center;
     }
     .masodik {
+        text-align: center;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-template-areas:
         'mh2 mh2 mh2 mh2 mimg'
         'mp mp mp mp mp'
         'mp mp mp mp mp'
+        'mp mp mp mp mp'
     }
-    
+    .masodik img {
+        width: 200px;
+        height: 150px;
+        margin-right: 20vw;
+    }
+    .masodik h2 {
+        font-size: 25px;
+        margin: 0 auto;
+    }
 }
