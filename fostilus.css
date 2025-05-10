@@ -26,12 +26,24 @@ body {
     margin: 0;
     background-color: blanchedalmond;
     background-color: rgb(94, 168, 100);
-    padding-top: 7vw
+    padding-top: 7vw;
+    overflow-x: hidden;
+}
+
+.img-title-cont {
+    height: 30vw;
+    width: 100vw;
+    background-image: url(képek/pollution-4796858_1920.jpg);
+    background-size: cover;
 }
 
 .focim {
-    margin-top: 1vw;
-    font-size: 2vw;
+    font-size: 65px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 header {
@@ -104,4 +116,6 @@ summary section {
 
 section img {
     border-radius: 2.5vw;
+    max-width: 25vw;
+    height: auto;
 }
