@@ -29,6 +29,11 @@ body {
     padding-top: 7vw
 }
 
+.focim {
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
 header {
     background-color: rgb(253, 212, 151);
     padding: 1vw 0; 
@@ -84,6 +89,9 @@ header img {
 
 summary section {
     display: grid;
+    margin: 3vw 7vw;
+    background-color: rgb(13, 122, 31);
+    border-radius: 1vw;
 }
 
 .paratlan {
@@ -96,5 +104,4 @@ summary section {
 
 section img {
     border-radius: 2.5vw;
-    
 }
