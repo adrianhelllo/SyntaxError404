@@ -33,6 +33,10 @@ header {
     padding: 3vw 0; 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
 }
 
 .linkek {
