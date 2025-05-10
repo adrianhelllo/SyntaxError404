@@ -52,6 +52,11 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
+a {
+    font-size: 1.5vw;
+    transition: all 0.3s ease-in-out;
+}
+
 .linkek a:hover {
     color: white;
     text-decoration: underline;
@@ -79,4 +84,17 @@ header img {
 
 summary section {
     display: grid;
+}
+
+.paratlan {
+    grid-template-columns: 1fr 2fr;
+}
+
+.paros {
+    grid-template-columns: 2fr 1fr;
+}
+
+section img {
+    border-radius: 2.5vw;
+    
 }
