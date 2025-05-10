@@ -46,6 +46,17 @@ body {
     z-index: 1;
 }
 
+.introd-sec-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5vw;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+}
+
 header {
     background-color: rgb(253, 212, 151);
     padding: 1vw 0; 
