@@ -67,6 +67,12 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+header img {
+    width: 5vw;
+    float: right;
+    margin-right: 2vw;
+}
+
 .csapat_tema h1 {
     margin-top: 0.35vw;
     font-size: 2.16vw;
