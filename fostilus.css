@@ -206,15 +206,19 @@ footer {
     padding: 5vw 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 0.5vw;
+}
+
+footer a {
+    font-size: 0.8vw;
 }
 
 .srces {
     text-align: left;
-    margin-left: 3vw;
+    margin-left: 1.5vw;
 }
 
 .srces h2 {
-    font-size: 1vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
 }
 
