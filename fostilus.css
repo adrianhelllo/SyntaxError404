@@ -203,7 +203,7 @@ article h2 {
 
 footer {
     background-color: rgb(10, 90, 24);
-    padding: 5vw 0;
+    padding: 2vw 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -217,8 +217,13 @@ footer a {
     margin-left: 1.5vw;
 }
 
-.srces h2 {
+footer h2 {
     font-size: 1.5vw;
     margin-bottom: 1vw;
+}
+
+.auth {
+    text-align: right;
+    margin-right: 1.5vw;
 }
 
