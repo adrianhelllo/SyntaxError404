@@ -31,32 +31,26 @@ body {
 }
 
 .img-title-cont {
-    min-height: 30vw;
-    width: 100vw;
+    padding: 1vw;
+    margin:auto;   
+    min-height: 30vw; 
     background-image: url(képek/pollution-4796858_1920.jpg);
     background-size: cover;
 }
 
 .focim {
+    padding: 1vw;
     font-size: 3vw;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+    text-align: center;
 }
 
 .introd-sec-article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin: auto;
     column-gap: 5vw;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 1.2vw;
     text-align: justify;
-    max-width: 100%;
+    max-width: 40vw;
+    margin-top: 4vw;
 }
 
 .introd-sec-article article {
@@ -79,10 +73,10 @@ header {
     padding: 1vw 0; 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    position: fixed;
+     position: fixed;
     width: 100%;
     z-index: 1000;
-    top: 0;
+    top: 0; 
 }
 
 .linkek {
@@ -132,6 +126,18 @@ summary section {
     margin: 3vw 7vw;
     background-color: rgb(13, 122, 31);
     border-radius: 1vw;
+    box-shadow: 10px 10px 20px rgb(4, 34, 9);
+    transition: all 0.3s ease-in-out
+}
+
+summary section:hover {
+    transform: scale(1.02);
+    box-shadow: 10px 10px 10px rgb(4, 34, 9);
+}
+
+summary h2 {
+    font-size: 3vw;
+    margin-top: 2vw;
 }
 
 .paratlan {
@@ -143,7 +149,12 @@ summary section {
 }
 
 section img {
-    border-radius: 2.5vw;
+    border-radius: 3.5vw;
     max-width: 25vw;
     height: auto;
+    padding: 1vw;
+}
+
+section article {
+    font-size: 28px
 }
