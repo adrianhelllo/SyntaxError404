@@ -235,7 +235,7 @@ footer {
 
 @media screen and (max-width: 815px) {
     body {
-        padding-top: 12vw;
+        padding-top: 1778vw;
     }
 
     .csapat_tema {
@@ -258,6 +258,7 @@ footer {
     .linkek a:hover {
         font-size: 1.9vw;
     }
+
     .logo img {
         width: 9vw;
     }
