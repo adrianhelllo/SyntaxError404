@@ -231,6 +231,15 @@ footer {
     .img-cont img {
         max-width: 75%;
         padding: 2vw;
+        border-radius: 2vw;
+    }
+
+    .paros .img-cont {
+        grid-row: 1
+    }
+
+    .paros article {
+        grid-row: 2
     }
 
     body {
