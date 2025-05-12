@@ -238,7 +238,18 @@ footer {
         padding-top: 12vw;
     }
 
-    
+    .csapat_tema {
+        margin-top: 2vw;
+    }
+
+    .csapat_tema h1 {
+        font-size: 3vw;
+    }
+
+    .csapat_tema h3 {
+        font-size: 1.2vw;
+        letter-spacing: 0.45vw;
+    }
     
     .linkek a {
         font-size: 1.8vw;
