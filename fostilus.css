@@ -228,8 +228,9 @@ footer {
         text-align: center;
     }
     
-    section img {
+    .img-cont img {
         max-width: 75%;
+        padding: 2vw;
     }
 
     body {
