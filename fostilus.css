@@ -150,15 +150,12 @@ summary section:hover {
 
 .paros {
     grid-template-columns: 2fr 1fr;
-}
-
-.paros img {
-    margin-left: 5.87vw;
+    column-gap: 3vw;
 }
 
 section img {
+    width: 100%;
     border-radius: 1.3vw;
-    max-width: 22.5vw;
     height: auto;
     padding: 0.5vw;
 }
@@ -177,10 +174,6 @@ section article {
     margin-right: 2vw;
 }
 
-#img1 {
-    max-width: 18vw;
-}
-
 .olv-tobb {
     text-decoration: underline;
 }
@@ -195,10 +188,6 @@ article h2 {
     margin-bottom: 2vw;
     color: white;
     text-align: center;
-}
-
-#img3 {
-    max-width: 20vw;
 }
 
 footer {
@@ -234,6 +223,15 @@ footer {
 
 
 @media screen and (max-width: 815px) {
+
+    summary section {
+        text-align: center;
+    }
+    
+    section img {
+        max-width: 75%;
+    }
+
     body {
         padding-top: 17.2vw;
     }
@@ -286,17 +284,10 @@ footer {
         grid-template-rows: auto auto;
     }
 
-    .paros img {
-        margin-left: 30vw;
-        width: 50vw;
-    }
-
     summary section img {
         margin: 0;
-        margin-left: 32vw;
         padding: 0;
         grid-row: 2;
-        float: right;
         height: 100%;
         object-fit: cover;
     }
