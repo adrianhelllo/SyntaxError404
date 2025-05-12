@@ -64,11 +64,6 @@ body {
     color: black;
 }
 
-.clr-block {
-    background-color: rgb(94, 168, 100);
-    height: 15vw
-}
-
 header {
     background-color: rgb(253, 212, 151);
     padding: 1vw 0; 
@@ -78,6 +73,11 @@ header {
     width: 100%;
     z-index: 1000;
     top: 0; 
+}
+
+.miert-fog {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1vw;
 }
 
 .linkek {
@@ -235,11 +235,11 @@ footer {
 
 @media screen and (max-width: 815px) {
     body {
-        padding-top: 1778vw;
+        padding-top: 17.2vw;
     }
 
     .csapat_tema {
-        margin-top: 2vw;
+        margin-top: 5vw;
     }
 
     .csapat_tema h1 {
@@ -252,15 +252,53 @@ footer {
     }
     
     .linkek a {
-        font-size: 1.8vw;
+        font-size: 3vw;
     }
 
     .linkek a:hover {
-        font-size: 1.9vw;
+        font-size: 3.1vw;
     }
 
     .logo img {
-        width: 9vw;
+        width: 15vw;
+    }
+
+    .focim {
+        font-size: 5vw;
+    }
+
+    .miert-fog {
+        font-size: 2vw;
+        margin-bottom: 5vw;
+        padding: 2vw;
+    }
+
+    .miert-fog h2 {
+        font-size: 2.5vw;
+    }
+
+    .header-sum {
+        font-size: 3.5vw;
+    }
+
+    .paros, .paratlan {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .paros img {
+        margin-left: 30vw;
+        width: 50vw;
+    }
+
+    summary section img {
+        margin: 0;
+        margin-left: 32vw;
+        padding: 0;
+        grid-row: 2;
+        float: right;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
