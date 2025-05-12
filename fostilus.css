@@ -108,7 +108,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-header img {
+.logo img {
     width: 5vw;
     float: right;
     margin-right: 2vw;
@@ -227,9 +227,28 @@ footer h2 {
     margin-right: 1.5vw;
 }
 
-@media screen and (max-width: 900px) {
-    header nav {
+footer {
+    margin-top: 20vw;
+}
+
+
+
+@media screen and (max-width: 815px) {
+    body {
+        padding-top: 12vw;
+    }
+
+    
+    
+    .linkek a {
         font-size: 1.8vw;
+    }
+
+    .linkek a:hover {
+        font-size: 1.9vw;
+    }
+    .logo img {
+        width: 9vw;
     }
 }
 
