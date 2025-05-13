@@ -21,6 +21,7 @@
     max-width: 100%;
     height: auto;
     margin: auto;
+    border-radius: 2vw;
 }
 
 .txt-sec a {
@@ -51,4 +52,20 @@
     background-color: rgb(113, 172, 118);
     padding: 2vw;
     margin: 2vw 10vw;
+}
+
+
+@media screen and (max-width:900px) {
+    .txt-sec {
+        grid-template-columns: 1fr;
+    }
+
+    .txt-sec h2 {
+        font-size: 5vw;
+    }
+
+    .nagy-tar {
+        margin: 2vw;
+    }
+    
 }
