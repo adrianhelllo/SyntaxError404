@@ -19,12 +19,14 @@ nav h2 {
     background-color: rgba(20, 65, 23, 0);
     border: solid 10px rgba(20, 65, 23, 0);
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0);
-    color: rgb(99, 83, 61);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin: 15px;
 }
 
 article{
     background-color: rgb(94, 168, 100);
-    padding: 50px;
+    padding: 30px;
 }
 
 footer {
@@ -62,6 +64,7 @@ img {
 .elso img {
     grid-area: eimg;
     max-height: 350px;
+    max-width: 400px;
 }
 
 .elso p {
@@ -102,6 +105,7 @@ footer {
     padding-bottom: 10px;
     padding-left: 200px;
     padding-right: 200px;
+    margin-top: 0;
 }
 
 footer a {
@@ -131,7 +135,7 @@ footer a:hover {
         'ep ep ep ep ep'
     }
     .elso img {
-        width: 300px;
+        width: 200px;
     }
     .elso h2 {
         font-size: 25px;
@@ -142,7 +146,7 @@ footer a:hover {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas:
-        'mh2 mh2 mh2 mh2 mimg'
+        'mh2 mh2 mh2 mimg mimg'
         'mp mp mp mp mp'
         'mp mp mp mp mp'
         'mp mp mp mp mp'
@@ -150,7 +154,6 @@ footer a:hover {
     .masodik img {
         width: 200px;
         height: 150px;
-        margin-right: 20vw;
     }
     .masodik h2 {
         font-size: 25px;
