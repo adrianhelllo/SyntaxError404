@@ -63,8 +63,6 @@ img {
 
 .elso img {
     grid-area: eimg;
-    max-height: 350px;
-    max-width: 400px;
 }
 
 .elso p {
@@ -89,27 +87,44 @@ img {
 
 .masodik img {
     grid-area: mimg;
+    max-width: 100%;
 }
 
 .masodik p {
     grid-area: mp;
 }
 
+.srces {
+    text-align: left;
+    margin-left: 0vw;
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 15px;
+}
+
+footer {
+    display: block;
+}
+
 footer p {
-    margin: 0;
+    margin: 50px;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
 
 footer {
     padding-bottom: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 14vw;
+    padding-right: 60vw;
     margin-top: 0;
 }
 
+footer h2 {
+    font-size: 15px;
+}
+
 footer a {
-    text-align: right;
+    text-align: left;
     background-color: rgb(13, 122, 31);
     border: solid 3px rgb(0, 0, 0);
     padding: 5px;
@@ -117,6 +132,7 @@ footer a {
     color: #ffffff;
     text-decoration: none;
     box-shadow: 4px 8px 4px black;
+    font-size: 15px;
 }
 
 footer a:hover {
@@ -124,36 +140,43 @@ footer a:hover {
 }
 
 @media screen and (max-width:785px){
+    footer {
+        padding-right: 12vw;
+    }
+    article {
+        padding: 3px;
+    }
     .elso {
         text-align: center;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: auto auto auto auto;
         grid-template-areas:
-        'eimg eh2 eh2 eh2 eh2'
-        'ep ep ep ep ep'
+        'eh2 eh2 eh2 eh2 eh2'
+        'eimg eimg eimg eimg eimg'
         'ep ep ep ep ep'
         'ep ep ep ep ep'
     }
     .elso img {
-        width: 200px;
+        max-width: 100%;
+        margin: auto;
     }
     .elso h2 {
         font-size: 25px;
         text-align: center;
+        margin: 0 auto;
     }
     .masodik {
         text-align: center;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: auto auto auto auto;
         grid-template-areas:
-        'mh2 mh2 mh2 mimg mimg'
-        'mp mp mp mp mp'
+        'mh2 mh2 mh2 mh2 mh2'
+        'mimg mimg mimg mimg mimg'
         'mp mp mp mp mp'
         'mp mp mp mp mp'
     }
     .masodik img {
-        width: 200px;
-        height: 150px;
+        max-width: 100%;
     }
     .masodik h2 {
         font-size: 25px;
