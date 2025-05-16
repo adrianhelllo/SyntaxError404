@@ -132,6 +132,10 @@ a {
     background-image: radial-gradient(rgb(13, 122, 31), rgb(30, 145, 49), rgb(95, 172, 108));
 }
 
+.kartyak article {
+    font-size: 25px;
+}
+
 .kartyak section:hover {
     transform: scale(1.02);
     box-shadow: 10px 10px 10px rgb(4, 34, 9);
