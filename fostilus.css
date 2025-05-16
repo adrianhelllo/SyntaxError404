@@ -311,8 +311,8 @@ footer {
         object-fit: cover;
     }
 
-    section article {
-        font-size: 2vw;
+    .introd-sec-article {
+        font-size: 25px;
     }
-}
 
+}
