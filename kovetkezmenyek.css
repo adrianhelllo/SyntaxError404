@@ -38,7 +38,8 @@
 }
 
 .txt-sec a:hover {
-    color: white
+    color: white;
+    transform: scale(1.1);
 }
 
 .txt-sec h2 {
